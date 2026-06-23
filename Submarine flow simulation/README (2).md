@@ -76,7 +76,7 @@ Polyhedral cells are used in the core domain for their improved accuracy-per-cel
 
 ### Discussion
 
-**Drag coefficient (C_D):** C_D decreases monotonically as the base mesh size is reduced, dropping from 0.08566 at 2.0 m to 0.07085 at 1.25 m — a reduction of approximately 17% across the range. This trend indicates that coarser meshes overestimate drag, likely due to insufficient resolution of the boundary layer and near-hull flow separation. The reduction in C_D is steeper between 2.0 m and 1.5 m and begins to flatten slightly at 1.25 m, suggesting the solution is approaching mesh-independent behaviour. Further refinement below 1.25 m would be needed to confirm full convergence.
+**Drag coefficient (C_D):** C_D decreases monotonically as the base mesh size is reduced, dropping from 0.08566 at 2.0 m to 0.07085 at 1.25 m — a reduction of approximately 17% across the range. This trend indicates that coarser meshes overestimate drag, likely due to insufficient resolution of the boundary layer and near-hull flow separation. The reduction in C_D is steeper between 2.0 m and 1.5 m and begins to flatten slightly at 1.25 m, suggesting the solution is approaching mesh-independent behaviour. 
 
 **Lift coefficient (C_L):** C_L remains small in magnitude across all cases (order 10⁻³), which is physically consistent with a symmetric hull at zero angle of attack producing negligible net lift. The non-monotonic variation of C_L with mesh size (ranging from −4.24×10⁻³ to −9.40×10⁻³) reflects the sensitivity of small force components to mesh resolution, particularly at the bow and stern where minor asymmetries in cell distribution can influence the result. All values are considered negligibly small relative to drag.
 
