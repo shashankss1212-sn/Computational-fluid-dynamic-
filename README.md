@@ -31,7 +31,7 @@ Before trusting any result, I ran the same case on four mesh sizes, from ~1.17 m
 **Results**
 
 | Wind direction | Inlet speed | Drag (N) | C_d | Lift (N) | C_l | Peak velocity near gate (m/s) |
-
+|---|---:|---:|---:|---:|---:|---:|
 | X (front-on) | 9 m/s | 6,217 | 0.680 | 4,861 | 0.133 | 11.6 |
 | X (front-on) | 18 m/s | 24,314 | 0.665 | 19,683 | 0.135 | 23.0 |
 | Z (side-on) | 9 m/s | 55,435 | 1.312 | 17,965 | 0.493 | 16.3 |
@@ -101,6 +101,12 @@ External flow over a submarine hull: drag and lift coefficients from a steady RA
 ```
 
 A note on file types: the `.sim` files are STAR-CCM+ simulation files (large and binary), `.msh` is a mesh, `.STL` is CAD geometry, and the `.PNG`/`.jpeg` files are exported scenes and plots.
+
+---
+
+## Author
+
+Shashank Suresh Srinivasan — M.Sc. Chemical and Energy Engineering, Otto von Guericke University Magdeburg. The Brandenburg Gate study was submitted to Dr.-Ing. habil. Gabor Janiga.
 
 ---
 
